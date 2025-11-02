@@ -1,0 +1,23 @@
+citHeader("To cite kmtest in publications use:")
+
+bibentry(
+  bibtype  = "Manual",
+  title    = "kmtest: Kobayashi-McAleer Tests for Linear and Logarithmic Transformations",
+  author   = person("Merwan", "Roudane"),
+  year     = 2025,
+  note     = "R package version 1.0.0",
+  url      = "https://github.com/merwanroudane/kmtest"
+)
+
+bibentry(
+  bibtype  = "Article",
+  title    = "Tests of Linear and Logarithmic Transformations for Integrated Processes",
+  author   = c(person("Masahito", "Kobayashi"),
+               person("Michael", "McAleer")),
+  journal  = "Journal of the American Statistical Association",
+  year     = 1999,
+  volume   = 94,
+  number   = 447,
+  pages    = "860--868",
+  doi      = "10.1080/01621459.1999.10474191"
+)
