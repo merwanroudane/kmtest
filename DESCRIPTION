@@ -1,0 +1,29 @@
+Package: kmtest
+Type: Package
+Title: Kobayashi-McAleer Tests for Linear and Logarithmic Transformations
+Version: 1.0.0
+Date: 2025-11-02
+Authors@R: person("Merwan", "Roudane", email = "merwanroudane920@gmail.com",
+                  role = c("aut", "cre"),
+                  comment = c(ORCID = ""))
+Description: Implements the Kobayashi-McAleer (1999) tests for choosing between 
+    linear and logarithmic transformations of integrated time series processes. 
+    The package provides four test statistics: V1 and V2 for processes with drift,
+    and U1 and U2 for processes without drift. These tests help determine whether
+    a time series should be modeled in levels or logarithms.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 3.5.0)
+Imports:
+    stats
+Suggests:
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown,
+    tseries
+VignetteBuilder: knitr
+RoxygenNote: 7.3.3
+URL: https://github.com/merwanroudane/kmtest
+BugReports: https://github.com/merwanroudane/kmtest/issues
